@@ -1,0 +1,290 @@
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: coral;
+    }
+    
+    header{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        font-family: 'Helvetica';
+    }
+    
+    main{
+        font-family: 'Arial', sans-serif;
+        margin: 50px;
+    }
+    
+    .titulo{
+        font-size: 25px;
+    }
+    
+    .titulo1{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .titulo2{
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .lista_n{
+        display: inline;
+        margin-right: 50px;
+    }
+    
+    .tabla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .text{
+        grid-column: 1;
+    }
+    
+    .image{
+        grid-column: 2;
+    }
+    
+    .gr1{
+        grid-column: 1;
+        text-indent: 20px;
+    }
+    
+    .gr2{
+        grid-column: 2;
+        text-indent: 20px;
+    }
+    
+    .fgc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    button{
+        margin: 15px;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh
+    }
+    
+    .sangria{
+        text-indent: 10px;
+        font-size: 10px;
+    }
+    
+    .dsangria{
+        text-indent: 20px;
+    }
+
+    .personal{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-color: coral;
+    }
+    
+    header{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        font-family: 'Helvetica';
+    }
+    
+    main{
+        font-family: 'Arial', sans-serif;
+        margin: 100px;
+    }
+    
+    .titulo{
+        font-size: 50px;
+    }
+    
+    .titulo1{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .titulo2{
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .lista_n{
+        display: inline;
+        margin-right: 100px;
+    }
+    
+    .tabla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .text{
+        grid-column: 1;
+    }
+    
+    .image{
+        grid-column: 2;
+    }
+    
+    .gr1{
+        grid-column: 1;
+        text-indent: 40px;
+    }
+    
+    .gr2{
+        grid-column: 2;
+        text-indent: 40px;
+    }
+    
+    .fgc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    button{
+        margin: 30px;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh
+    }
+    
+    .sangria{
+        text-indent: 20px;
+        font-size: 20px;
+    }
+    
+    .dsangria{
+        text-indent: 40px;
+    }
+
+    .personal{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 2048px) {
+    body{
+        background-color: coral;
+    }
+    
+    header{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        font-family: 'Helvetica';
+    }
+    
+    main{
+        font-family: 'Arial', sans-serif;
+        margin: 200px;
+    }
+    
+    .titulo{
+        font-size: 60px;
+    }
+    
+    .titulo1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .titulo2{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .lista_n{
+        display: inline;
+        margin-right: 120px;
+    }
+    
+    .tabla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .text{
+        grid-column: 1;
+    }
+    
+    .image{
+        grid-column: 2;
+    }
+    
+    .gr1{
+        grid-column: 1;
+        text-indent: 50px;
+    }
+    
+    .gr2{
+        grid-column: 2;
+        text-indent: 50px;
+    }
+    
+    .fgc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    button{
+        margin: 40px;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh
+    }
+    
+    .sangria{
+        text-indent: 25px;
+        font-size: 25px;
+    }
+    
+    .dsangria{
+        text-indent: 45px;
+    }
+
+    .personal{
+        text-align: center;
+        
+    }
+
+    footer{
+        text-align: center;
+    }
+}
